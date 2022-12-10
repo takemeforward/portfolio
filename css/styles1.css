@@ -8,6 +8,7 @@ body{
 	height: 100%;
 }
 #home{
+	color: white;
 	background-color: grey;
 }
 .text-container{
