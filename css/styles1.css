@@ -1,0 +1,130 @@
+*{
+	padding: 0;
+	margin: 0;
+	/*text-align: center;*/
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+#home{
+	background-color: grey;
+}
+.text-container{
+	padding: 3%;
+	text-align: justify;
+}
+.hello{
+	font-family: sans-serif;
+	font-size: 200%;
+	font-weight: 700;
+}
+.name{
+	font-size: 150%;
+	font-weight: 500;
+}
+.profession{
+	font-size: 130%;
+	font-size: 100;
+	padding: 2%;
+}
+.text-container, .image-container{
+	text-align: center;
+}
+.about-text{
+	line-height: 1.9;
+	padding: 4%;
+	text-align: left;
+}
+.profile-image{
+	width: 45%;
+	border-radius: 50%;
+/*	(207, 47, 116);, 1*/
+	box-shadow: 0 18px 32px 0 rgba(216,250,5,0.5), 0 6px 20px 0 rgba(216,250,116,0.5);
+}
+#education{
+	text-align: center;
+}
+.education-container{
+	padding: 3%;
+}
+.education1,.education2,.education3{
+	padding: 4% 7% 10%;
+	text-align: left;
+}
+.heading{
+	text-align: center;
+	padding: 0 5% 4%;
+	font-size: 200%;
+}
+
+#skill{
+	background-color: grey;
+	
+}
+.skill-container{
+	text-align: center;
+	padding: 5% 10%;
+}
+.skill{
+	margin: 2%;
+	padding: 4%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.skill:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.skill-image{
+	width: 70%;
+}
+.skill-image:hover{
+	width: 100%;
+}
+
+#project{
+	padding: 4%;
+}
+.project-container{
+	text-align: center;
+	padding: 2%;
+	padding-left: 8%;
+}
+.projectrow{
+	padding: 4%;
+	margin: 2%;
+}
+.project{
+	padding: 3%;
+	border: 2px solid lightgrey;
+	background-color: lightgrey;
+	margin: 6%;
+	width: 70%;
+	height: 55vh;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.15), 0 6px 20px 0 rgba(0,0,0,0.15);
+	
+}
+.project:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+span{
+	display: block;
+	padding-left: 5%;
+	text-align: left;
+}
+.project-image{
+	width: 90%;
+	margin-bottom: 5%;
+}
+.calc{
+	height: 85vh;
+}
+
+footer{
+	text-align: center;
+}
+.social-container{
+	padding: 5%;
+}
+.social{
+	zoom: 140%;
+}

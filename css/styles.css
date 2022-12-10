@@ -1,0 +1,199 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	/*text-align: center;*/
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+#home{
+/*	#ff4c68*/
+	background-color: grey;
+}
+
+.navbar-brand{
+	padding-left: 5%;
+}
+.collapse{
+	padding-right: 10%;
+}
+.nav-item{
+	padding: 0 1rem;
+}
+.nav-link{
+	font-size: 1.3rem;
+}
+.home-container{
+	width: 100vw;
+	height: 90vh;
+
+	display: inline-flex;
+	justify-content: center;
+	align-content: center;
+	align-items:center;
+	/*background-color: greenyellow;*/
+}
+.text-container{
+	width: 55vw;
+	height: 80vh;
+	padding-left: 10%;
+	padding-bottom: 10%;
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	color: whitesmoke;
+	flex-direction: column;
+}
+.hello{
+	font-size: 4.5rem;
+	font-weight: 700;
+}
+.name{
+	font-size: 3.5rem;
+	font-weight: 500;
+}
+.profession{
+	font-size: 2.5rem;
+	font-size: 100;
+	padding-bottom: 4%;
+}
+.image-container{
+	width: 35vw;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*background-color: yellow;*/
+}
+.profile-image{
+	width: 27.9vw;
+
+}
+.about-text{
+	font-size: 110%;
+	line-height: 1.7;
+	font-weight: 400;
+}
+.heading{
+	text-align: center;
+	font-weight: 600;
+	font-size: 2rem;
+}
+#education{
+	background-color: #f2f2f2;
+}
+.education1,.education2,.education3{
+	padding: 4%;
+}
+/*skills part*/
+#skills{
+	background-color: ghostwhite;
+}
+.skill-container{
+	padding: 4% 0%;
+}
+.skill{
+	margin: 1%;
+	padding: 2%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	/*border-radius: 50%;*/
+}
+.skill:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.skill-image{
+	width: 100%;
+}
+
+#projects{
+	background-color: #f2f2f2;
+}
+.project-container{
+	text-align: center;
+	padding: 2%;
+	padding-left: 8%;
+}
+.projectrow{
+	padding: 4%;
+	margin: 2%;
+}
+.project{
+	padding: 2%;
+/*	border: 2px solid lightgrey;*/
+	color: black;
+	font-weight: 300;
+	background-color: lightgray;
+	margin: 6%;
+	width: 70%;
+	height: 60vh;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.15), 0 6px 20px 0 rgba(0,0,0,0.15);
+	
+}
+.project:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+span{
+	display: block;
+	padding-left: 5%;
+	text-align: left;
+}
+.project-image{
+	width: 95%;
+	margin-bottom: 5%;
+}
+.calc{
+	height: 90vh;
+}
+footer{
+	padding: 2em;
+	text-align: center;
+	background-color: #f2f2f2;
+}
+.social{
+	zoom: 130%;
+	padding: 1rem 1rem;
+}
+
+
+/*contact me form*/
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: grey;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+a[type=button] {
+	border-radius: 10px;
+/*	text-decoration: none;*/
+	color: white;
+	padding: 2px 12px;
+/*	background-color: green;*/
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.15), 0 6px 20px 0 rgba(0,0,0,0.15);
+
+}
+
+.container {
+	margin: 4% 15%;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 12px;
+}
