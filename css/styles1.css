@@ -43,6 +43,7 @@ body{
 	box-shadow: 0 18px 32px 0 rgba(216,250,5,0.5), 0 6px 20px 0 rgba(216,250,116,0.5);
 }
 #education{
+	background-color: #f2f2f2;
 	text-align: center;
 }
 .education-container{
@@ -59,7 +60,7 @@ body{
 }
 
 #skill{
-	background-color: grey;
+background-color: ghostwhite;
 	
 }
 .skill-container{
@@ -82,6 +83,7 @@ body{
 }
 
 #project{
+	background-color: #f2f2f2;
 	padding: 4%;
 }
 .project-container{
@@ -120,6 +122,7 @@ span{
 }
 
 footer{
+	background-color: #f2f2f2;
 	text-align: center;
 }
 .social-container{
